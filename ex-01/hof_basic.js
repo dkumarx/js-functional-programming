@@ -4,7 +4,7 @@ const fs = require('fs');
     BELOW CODE TRANSFORM "DATA.TXT" FILE TO JSON OBJECT USING HIGER ORDER FUNCTION (DEFAULT)
  *
  */
-const output = fs.readFileSync('./data/data.txt', 'utf8')
+const output = fs.readFileSync('../data/data.txt', 'utf8')
                 .split('\n')
                 .map(line => line.trim().split('\t'))
                 .reduce((categories, line) => {

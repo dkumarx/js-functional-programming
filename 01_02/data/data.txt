@@ -1,0 +1,7 @@
+utilities	ebill	april	100
+utilities	gbill	april	50
+utilities	water	april	200
+education	primary	march	286
+education	primary	april	280
+groceries	indian	march	300
+groceries	coles	march	100
